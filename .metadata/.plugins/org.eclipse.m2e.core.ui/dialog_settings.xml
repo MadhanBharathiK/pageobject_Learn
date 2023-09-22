@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\USER\eclipse-workspace\LEARNPOM\src\main\java\pages\login.java"/>
+			<item value="C:\Users\USER\git\ExtentReportCode\Demo_Selenium_Concpets"/>
+			<item value="C:\Users\USER\eclipse-workspace\Selenium_Advanced\src\test\java\ExtentReport_Genaration\ClearExtentReport.java"/>
+			<item value="C:\Users\USER\eclipse-workspace\MTA_Local"/>
+			<item value="C:\Users\USER\eclipse-workspace\MTA_Automate"/>
+			<item value="C:\Users\USER\eclipse-workspace\MTA_Project"/>
+			<item value="C:\Users\USER\eclipse-workspace\MTA_Project\src\MTA_FULLFLOW\MTA_Login.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="LearnPageFactory"/>
+			<item value="LearnPageObjectModules"/>
+			<item value="HybirdFrameWork01"/>
+			<item value="HybirdFrameWork"/>
+			<item value="CI_cd"/>
+			<item value="CI"/>
+			<item value="CI_Demo"/>
+			<item value="CI_Intergration_GithubAction"/>
+			<item value="Framework_V1"/>
+			<item value="Framework_LearnV1"/>
+			<item value="Selenium_Advanced_Concepts"/>
+			<item value="LearnFrameWork"/>
+			<item value="All_DemoConcepts_Selenium"/>
+			<item value="xpath_mta"/>
+			<item value="MTA_Local_Test"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="LearnPageFactory"/>
+			<item value="LearnPageObjectModules"/>
+			<item value="HybirdFrameWork01"/>
+			<item value="HybirdFrameWork"/>
+			<item value="CI_cd"/>
+			<item value="CI"/>
+			<item value="CI_Git_Demo"/>
+			<item value="CI_Intergration_GithubAction"/>
+			<item value="Framework_V1"/>
+			<item value="Framework_LearnV1"/>
+			<item value="Selenium_Advanced"/>
+			<item value="FrameWork"/>
+			<item value="Demo_Selenium_Concpets"/>
+			<item value="xpath_mta"/>
+			<item value="MTA_Local"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="MadhanTest_Automation"/>
+			<item value="SwanAutomation"/>
+			<item value="PlayGroup"/>
+			<item value="AutomationTest"/>
+			<item value="DemoTest"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="MadhanTest_Automation"/>
+			<item value="SwanAutomation"/>
+			<item value="PlayGroup"/>
+			<item value="PlayGroupWeb"/>
+			<item value="DemoTest"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

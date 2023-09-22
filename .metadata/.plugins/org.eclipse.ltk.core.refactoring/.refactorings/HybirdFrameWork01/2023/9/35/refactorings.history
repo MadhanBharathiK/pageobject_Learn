@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Hey.loginmd&apos; to &apos;LoginCRM&apos;&#x0D;&#x0A;- Original project: &apos;HybirdFrameWork01&apos;&#x0D;&#x0A;- Original element: &apos;Hey.loginmd&apos;&#x0D;&#x0A;- Renamed element: &apos;Hey.LoginCRM&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;loginmd&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Hey{loginmd.java[loginmd" matchStrategy="1" name="LoginCRM" qualified="false" references="true" similarDeclarations="false" stamp="1693562063975" textual="false" version="1.0"/>
+</session>

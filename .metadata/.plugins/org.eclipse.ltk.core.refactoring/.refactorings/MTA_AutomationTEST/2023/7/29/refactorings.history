@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;MTA.MTA&apos; to &apos;MTA_Flow&apos;&#x0D;&#x0A;- Original project: &apos;MTA_AutomationTEST&apos;&#x0D;&#x0A;- Original element: &apos;MTA.MTA&apos;&#x0D;&#x0A;- Renamed element: &apos;MTA.MTA_Flow&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MTA&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;MTA{MTA.java[MTA" matchStrategy="1" name="MTA_Flow" qualified="false" references="true" similarDeclarations="false" stamp="1689678383991" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,40 @@
+package TestMySWAN;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class mtaTest {
+	
+	WebDriver driver;
+
+	@BeforeClass
+	public void setup() {
+		
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\USER\\Desktop\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver","C:\\Users\\USER\\Desktop\\ChromeDriver jar\\chromedriver.exe");
+		driver=new ChromeDriver();
+		driver.get("http://localhost:4200/auth/login");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	}
+	
+	//Login:
+	@Test(priority=1)
+	public void verifyLogin() {
+		
+	//Enter username & password:
+		WebElement enteruser = driver.findElement(By.id("/html[1]/body[1]/app-root[1]/app-auth[1]/app-login[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[3]/input[1]"));
+		WebElement enterpassword = driver.findElement(By.id("//input[@type='password']"));
+		
+		enteruser.sendKeys("accounts@multitechcorp.in");
+		enterpassword.sendKeys("mta@1234");
+		
+	}
+
+}

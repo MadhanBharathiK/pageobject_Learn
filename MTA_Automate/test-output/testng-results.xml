@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-05T15:20:51 IST" name="Suite" finished-at="2023-07-05T15:21:01 IST" duration-ms="10355">
+    <groups>
+    </groups>
+    <test started-at="2023-07-05T15:20:51 IST" name="Test" finished-at="2023-07-05T15:21:01 IST" duration-ms="10355">
+      <class name="PlayGroup_Automate.PlayTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PlayGroup_Automate.PlayTest@52af26ee]" started-at="2023-07-05T15:20:51 IST" name="setup" finished-at="2023-07-05T15:20:54 IST" duration-ms="3034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:1, instance:PlayGroup_Automate.PlayTest@52af26ee]" started-at="2023-07-05T15:20:54 IST" name="verifyTitle" finished-at="2023-07-05T15:20:54 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifyValidLogin()[pri:2, instance:PlayGroup_Automate.PlayTest@52af26ee]" started-at="2023-07-05T15:20:54 IST" name="verifyValidLogin" finished-at="2023-07-05T15:20:54 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method signature="validateDashBoard()[pri:3, instance:PlayGroup_Automate.PlayTest@52af26ee]" started-at="2023-07-05T15:20:54 IST" name="validateDashBoard" finished-at="2023-07-05T15:21:01 IST" duration-ms="6988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDashBoard -->
+      </class> <!-- PlayGroup_Automate.PlayTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

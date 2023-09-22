@@ -1,0 +1,33 @@
+package hrTestCase;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
+import hr_PageElements.hr_Login;
+
+public class hrloginTest {
+	
+	@Test
+	public void verifyLogin() {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\USER\\Desktop\\ChromeDriver jar\\chromedriver-win32\\chromedriver.exe");
+
+		
+		WebDriver driver=new ChromeDriver();
+		
+		hr_Login login = new hr_Login(driver);
+		
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\r\n");
+		
+		driver.manage().window().maximize();
+		
+		login.typeUsername();
+		
+		login.typePassword();
+		
+		login.clickLogin();
+		
+	}
+	
+	
+
+}

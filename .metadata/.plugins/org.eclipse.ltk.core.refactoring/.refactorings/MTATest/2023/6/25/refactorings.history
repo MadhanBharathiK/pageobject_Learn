@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;MTAPack.AddProject&apos; to &apos;UpdatedMTA&apos;&#x0D;&#x0A;- Original project: &apos;Myswan&apos;&#x0D;&#x0A;- Original element: &apos;MTAPack.AddProject&apos;&#x0D;&#x0A;- Renamed element: &apos;MTAPack.UpdatedMTA&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AddProject&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;MTAPack{AddProject.java[AddProject" matchStrategy="1" name="UpdatedMTA" qualified="false" references="true" similarDeclarations="false" stamp="1687430759532" textual="false" version="1.0"/>
+</session>

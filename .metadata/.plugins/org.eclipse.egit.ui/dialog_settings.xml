@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/MadhanBharathiK/SeleniumGitAction.git"/>
+		<item value="https://github.com/MadhanBharathiK/CI_GitAction.git"/>
+		<item value="https://github.com/MadhanBharathiK/CI_demo.git"/>
+		<item value="https://github.com/MadhanBharathiK/ExtentReportCode.git"/>
+		<item value="https://github.com/MadhanBharathiK/MTA_AutomationCode.git"/>
+		<item value="https://github.com/MadhanBharathiK/SwanAutomateCode.git"/>
+		<item value="https://github.com/Madhankalingaraj/Automationtest.git"/>
+		<item value="https://github.com/Madhankalingaraj/TestProjetcs_Automation.git"/>
+		<item value="https://github.com/pranavskeintech/MadhanTest_Automation.git"/>
+		<item value="https://github.com/Madhankalingaraj/TestProjects_Automation.git"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="madhanbharathi@skeintech.com &lt;madhanbharathi@skeintech.com&gt;"/>
+		<item value="madhan &lt;pranav.p@skeintech.com&gt;"/>
+		<item value="Pranav P &lt;pranav.p@skeintech.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="madhanbharathi@skeintech.com &lt;madhanbharathi@skeintech.com&gt;"/>
+		<item value="madhan &lt;pranav.p@skeintech.com&gt;"/>
+		<item value="Pranav P &lt;pranav.p@skeintech.com&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\USER\git\CI_demo\.git">
+			<item value="false"/>
+			<item value="madhanbharathi@skeintech.com &lt;madhanbharathi@skeintech.com&gt;"/>
+			<item value="CI-DEMO"/>
+			<item value="madhanbharathi@skeintech.com &lt;madhanbharathi@skeintech.com&gt;"/>
+			<item value="a325ef0aa5a9f2de24c0fe9aebe87e884ed8d372"/>
+			<item value="0"/>
+			<item value="false"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="534"/>
+		<item key="DIALOG_Y_ORIGIN" value="186"/>
+		<item key="DIALOG_WIDTH" value="875"/>
+		<item key="DIALOG_HEIGHT" value="503"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+</section>

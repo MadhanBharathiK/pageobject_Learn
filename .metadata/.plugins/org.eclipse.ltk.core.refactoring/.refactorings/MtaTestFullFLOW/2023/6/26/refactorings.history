@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;MTALOG.LOGIN&apos; to &apos;MTA_LOGIN&apos;&#x0D;&#x0A;- Original project: &apos;MtaTestFullFLOW&apos;&#x0D;&#x0A;- Original element: &apos;MTALOG.LOGIN&apos;&#x0D;&#x0A;- Renamed element: &apos;MTALOG.MTA_LOGIN&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LOGIN&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;MTALOG{LOGIN.java[LOGIN" matchStrategy="1" name="MTA_LOGIN" qualified="false" references="true" similarDeclarations="false" stamp="1688100575650" textual="false" version="1.0"/>
+</session>

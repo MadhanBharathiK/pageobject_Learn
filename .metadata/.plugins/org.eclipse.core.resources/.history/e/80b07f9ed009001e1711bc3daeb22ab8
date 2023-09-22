@@ -1,0 +1,72 @@
+package MTAPack;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class MtaLogin {
+	WebDriver driver;
+	@Test(priority=0)
+	public void Setup() throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver","C:\\\\Users\\\\USER\\\\Desktop\\\\ChromeDriver jar\\\\chromedriver.exe");
+		 driver= new ChromeDriver();
+			driver.get("https://demo.emeetify.com:5010/auth/login");
+			driver.manage().window().maximize();
+	        Thread.sleep(3000);
+	}
+	
+	@Test(priority=1)
+	public void login() throws InterruptedException {
+		
+	//EMail:
+		WebElement Email = driver.findElement(By.xpath("//input[@type='text']"));
+		Email.sendKeys("accounts@multitechcorp.in");
+		
+	//Password:
+		WebElement Password = driver.findElement(By.xpath("//input[@type='password']"));
+		Password.sendKeys("mta@1234");
+	//click login;
+		WebElement login = driver.findElement(By.xpath("//button[normalize-space()='Login']"));
+		login.click();
+		Thread.sleep(3000);
+		
+		}
+	
+	@Test(priority=2)
+	public void AddTeam() throws InterruptedException {
+		//Click AddTeam Btn:
+		WebElement AddTeam = driver.findElement(By.xpath("//button[contains(text(),'ADD TEAM') and @class='btn btn-secon-bg btn-primary semiBold-font app-bg add-project' ]"));
+		AddTeam.click();
+		Thread.sleep(4000);
+		
+		}
+	
+	//Add New Team:
+	@Test(priority=3)
+	public void AddNewTeam() throws InterruptedException {
+		//Enter Team Name :
+		Thread.sleep(2000);
+		WebElement EnterTeamName = driver.findElement(By.xpath("//input[@formcontrolname='teamname']"));
+		EnterTeamName.sendKeys("Test SKN");
+	//	Thread.sleep(4000);
+
+		//Description:
+		WebElement EnterDesc = driver.findElement(By.xpath("//*[@formcontrolname='description' and @class='form-control f-small br-2 wth-80 ng-pristine ng-invalid ng-touched']"));
+        Actions actions = new Actions(driver);
+        actions.sendKeys(EnterDesc,Keys.TAB).perform();
+        
+        
+		
+		//EnterDesc.click();
+		//EnterDesc.sendKeys("SKN Descrption");
+		
+		//
+	
+	}
+}
+
