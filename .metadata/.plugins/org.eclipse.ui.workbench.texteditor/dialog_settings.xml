@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="&quot;/html[1]/body[1]/app-root[1]/app-auth[1]/app-login[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[3]/input[1]"/>
+		<item key="selection" value="SelectCat"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="&quot;/html[1]/body[1]/app-root[1]/app-auth[1]/app-login[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[3]/input[1]"/>
-			<item value="clickCategories"/>
+			<item value="SelectCat"/>
+			<item value="Double"/>
+			<item value="project"/>
+			<item value="ClickAddedCategoryToOpen"/>
+			<item value="testuser"/>
+			<item value="button[text()=&apos;Categories &apos;]"/>
+			<item value="user"/>
 			<item value="select"/>
 			<item value="upload"/>
-			<item value="enter"/>
-			<item value="Select"/>
-			<item value="keydown"/>
-			<item value="threedot"/>
-			<item value="//button[normalize-space()=&apos;ADD TEAM&apos;]"/>
-			<item value="//a[@id=&apos;document-tab&apos;]&quot;"/>
-			<item value="ClickProject"/>
-			<item value="DOB"/>
-			<item value="scroll"/>
-			<item value="file"/>
+			<item value="USER"/>
 			<item value="document"/>
+			<item value="file"/>
+			<item value="//a[text()=&apos;Documents&apos;]&quot;"/>
+			<item value="Going to select user type of category"/>
+			<item value="clickCategories"/>
 		</list>
 		<list key="replacehistory">
 		</list>

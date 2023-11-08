@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-17T13:25:34 IST" name="Somke test" finished-at="2023-10-17T13:25:34 IST" duration-ms="85">
+    <groups>
+    </groups>
+    <test started-at="2023-10-17T13:25:34 IST" name="Test" finished-at="2023-10-17T13:25:34 IST" duration-ms="85">
+      <class name="batchesinTestNG.Batches_Testng">
+        <test-method signature="user1()[pri:0, instance:batchesinTestNG.Batches_Testng@776b83cc]" started-at="2023-10-17T13:25:34 IST" name="user1" finished-at="2023-10-17T13:25:34 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user1 -->
+        <test-method signature="user2()[pri:0, instance:batchesinTestNG.Batches_Testng@776b83cc]" started-at="2023-10-17T13:25:34 IST" name="user2" finished-at="2023-10-17T13:25:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user2 -->
+        <test-method signature="user3()[pri:0, instance:batchesinTestNG.Batches_Testng@776b83cc]" started-at="2023-10-17T13:25:34 IST" name="user3" finished-at="2023-10-17T13:25:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user3 -->
+      </class> <!-- batchesinTestNG.Batches_Testng -->
+      <class name="batchesinTestNG.singup">
+        <test-method signature="signup1()[pri:0, instance:batchesinTestNG.singup@1f97cf0d]" started-at="2023-10-17T13:25:34 IST" name="signup1" finished-at="2023-10-17T13:25:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup1 -->
+        <test-method signature="signup2()[pri:0, instance:batchesinTestNG.singup@1f97cf0d]" started-at="2023-10-17T13:25:34 IST" name="signup2" finished-at="2023-10-17T13:25:34 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup2 -->
+        <test-method signature="signup3()[pri:0, instance:batchesinTestNG.singup@1f97cf0d]" started-at="2023-10-17T13:25:34 IST" name="signup3" finished-at="2023-10-17T13:25:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup3 -->
+      </class> <!-- batchesinTestNG.singup -->
+    </test> <!-- Test -->
+  </suite> <!-- Somke test -->
+</testng-results>

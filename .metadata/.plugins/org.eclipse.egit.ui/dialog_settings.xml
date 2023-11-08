@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/MadhanBharathiK/New_Extent_Reports.git"/>
 		<item value="https://github.com/MadhanBharathiK/SeleniumGitAction.git"/>
 		<item value="https://github.com/MadhanBharathiK/CI_GitAction.git"/>
 		<item value="https://github.com/MadhanBharathiK/CI_demo.git"/>
@@ -10,19 +11,20 @@
 		<item value="https://github.com/Madhankalingaraj/Automationtest.git"/>
 		<item value="https://github.com/Madhankalingaraj/TestProjetcs_Automation.git"/>
 		<item value="https://github.com/pranavskeintech/MadhanTest_Automation.git"/>
-		<item value="https://github.com/Madhankalingaraj/TestProjects_Automation.git"/>
 	</list>
 	<list key="EGit.KnownHosts">
-		<item value="git.eclipse.org"/>
 		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
 		<item value="github.com"/>
 	</list>
 	<list key="CommitDialog.authorValues">
+		<item value="madhan &lt;madhanbharathi@skeintech.com&gt;"/>
 		<item value="madhanbharathi@skeintech.com &lt;madhanbharathi@skeintech.com&gt;"/>
 		<item value="madhan &lt;pranav.p@skeintech.com&gt;"/>
 		<item value="Pranav P &lt;pranav.p@skeintech.com&gt;"/>
 	</list>
 	<list key="CommitDialog.committerValues">
+		<item value="madhan &lt;madhanbharathi@skeintech.com&gt;"/>
 		<item value="madhanbharathi@skeintech.com &lt;madhanbharathi@skeintech.com&gt;"/>
 		<item value="madhan &lt;pranav.p@skeintech.com&gt;"/>
 		<item value="Pranav P &lt;pranav.p@skeintech.com&gt;"/>

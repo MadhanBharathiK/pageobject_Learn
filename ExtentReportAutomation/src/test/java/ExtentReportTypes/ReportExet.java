@@ -1,5 +1,7 @@
 package ExtentReportTypes;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
@@ -17,6 +19,7 @@ public class ReportExet {
     ExtentHtmlReporter htmlReporter;
     ExtentReports extent;
     ExtentTest test;
+	WebDriver driver;
 
 	
 	
@@ -29,22 +32,29 @@ public class ReportExet {
 
         
         htmlReporter.config().setChartVisibilityOnOpen(true);
-        htmlReporter.config().setDocumentTitle("Simple Automation Report");
-        htmlReporter.config().setReportName("Test Report");
+        htmlReporter.config().setDocumentTitle("Simple Automation Reporter");
+        htmlReporter.config().setReportName("Test Reporter");
         htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
         htmlReporter.config().setTheme(Theme.STANDARD);
-        htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");  }
+        htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'"); 
+        }
 
         @Test
-        public void set() {
-        	
+        public void setup() {
+    		System.setProperty("webdriver.chrome.driver","C:\\Users\\USER\\Desktop\\ChromeDriver jar\\chromedriver-win32\\chromedriver.exe");
+
+    		
+    		driver=new ChromeDriver();
+    		driver.get("http://localhost:4200/auth/login");
+    		driver.manage().window().maximize();
+    		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+    		System.out.println("Browser Launched");
+    		
+    	}
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\USER\\\\Desktop\\\\ChromeDriver jar\\\\chromedriver.exe");
-		 WebDriver driver=new ChromeDriver();
-		driver.get("https://demo.emeetify.com:81/playgroup/admin/login");
 		
 	}
 	
 	
 
-}
+

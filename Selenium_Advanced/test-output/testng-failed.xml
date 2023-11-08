@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ExtentReport_Genaration.ClearExtentReport">
+      <class name="Flipkart_Automate.Flip_Auto">
         <methods>
-          <include name="setups"/>
-          <include name="AddUserToTeam"/>
-          <include name="teardowns"/>
+          <include name="setupFlip"/>
         </methods>
-      </class> <!-- ExtentReport_Genaration.ClearExtentReport -->
+      </class> <!-- Flipkart_Automate.Flip_Auto -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

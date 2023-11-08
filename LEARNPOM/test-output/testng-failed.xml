@@ -5,7 +5,6 @@
     <classes>
       <class name="testcases.testLogin">
         <methods>
-          <include name="setup"/>
           <include name="testLogin"/>
         </methods>
       </class> <!-- testcases.testLogin -->

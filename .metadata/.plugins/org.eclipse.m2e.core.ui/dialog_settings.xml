@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\USER\eclipse-workspace\ExtentReportScreenShot\src\test\java\FailTestDemo.java"/>
 			<item value="C:\Users\USER\eclipse-workspace\LEARNPOM\src\main\java\pages\login.java"/>
 			<item value="C:\Users\USER\git\ExtentReportCode\Demo_Selenium_Concpets"/>
 			<item value="C:\Users\USER\eclipse-workspace\Selenium_Advanced\src\test\java\ExtentReport_Genaration\ClearExtentReport.java"/>
@@ -51,6 +52,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="NewExtentReportWithScreenNew"/>
+			<item value="ExtentReportScreenShot"/>
+			<item value="MTA_Automation"/>
+			<item value="TestNG_Learn"/>
 			<item value="LearnPageFactory"/>
 			<item value="LearnPageObjectModules"/>
 			<item value="HybirdFrameWork01"/>
@@ -62,14 +67,14 @@
 			<item value="Framework_V1"/>
 			<item value="Framework_LearnV1"/>
 			<item value="Selenium_Advanced_Concepts"/>
-			<item value="LearnFrameWork"/>
-			<item value="All_DemoConcepts_Selenium"/>
-			<item value="xpath_mta"/>
-			<item value="MTA_Local_Test"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="NewExtentReportWithScreenNew"/>
+			<item value="ExtentReportScreenShot"/>
+			<item value="MTA_Automation"/>
+			<item value="TestNG_Learn"/>
 			<item value="LearnPageFactory"/>
 			<item value="LearnPageObjectModules"/>
 			<item value="HybirdFrameWork01"/>
@@ -81,10 +86,6 @@
 			<item value="Framework_V1"/>
 			<item value="Framework_LearnV1"/>
 			<item value="Selenium_Advanced"/>
-			<item value="FrameWork"/>
-			<item value="Demo_Selenium_Concpets"/>
-			<item value="xpath_mta"/>
-			<item value="MTA_Local"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
